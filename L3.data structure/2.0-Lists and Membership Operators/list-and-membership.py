@@ -27,10 +27,10 @@ lower bound is inclusive; upper bound is exclusive'''
 
 months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
-q3 = month[6:9] # ['July', 'August', 'September']
+#q3 = month[6:9] # ['July', 'August', 'September']
 
-first_half = month[:6] # ['January', 'February', 'March', 'April', 'May', 'June']
-second_half = month[6:] # ['July', 'August', 'September', 'October', 'November', 'December']
+#first_half = month[:6] # ['January', 'February', 'March', 'April', 'May', 'June']
+#second_half = month[6:] # ['July', 'August', 'September', 'October', 'November', 'December']
 
 '''lists are most similar to strings
 both types support len function, indexing, and slicing
@@ -65,4 +65,17 @@ Support len()	O	O
 Elements	sequences of letters	any type of objects
 Mutability	X	O
 Order	O	O'''
+
+#--------Quiz: Lists and Membership Operators
+
+'''Quiz: Slicing Lists
+Select the three most recent dates from this list using list slicing notation. Hint: negative indexes work in slices!'''
+eclipse_dates = ['June 21, 2001', 'December 4, 2002', 'November 23, 2003',
+    'March 29, 2006', 'August 1, 2008', 'July 22, 2009',
+    'July 11, 2010', 'November 13, 2012', 'March 20, 2015',
+    'March 9, 2016']
+
+# TODO: Modify this line so it prints the last three elements of the list
+print(eclipse_dates[:-3]) # X
+print(eclipse_dates[-3:]) # O, start from index of -3
 
