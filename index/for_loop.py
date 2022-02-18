@@ -5,7 +5,7 @@ def check_even_and_odd_numbers_using_for_loop(numbers):
     print("For loop implementation:")
     for num in numbers:
         if num % 2 == 0:
-           even_number_list.append(num)
+            even_number_list.append(num)
         else:
             odd_number_list.append(num)
 

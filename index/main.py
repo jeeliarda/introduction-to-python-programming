@@ -2,9 +2,10 @@ import for_loop
 import while_loop
 import range_loop
 import enumerate_loop
+
+
 def main():
     numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    
 
     # print("Welcome this program for determine even and odd numbers\n")
     # print("Enter a numbers as you can?\n")
