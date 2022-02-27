@@ -33,6 +33,7 @@ def checking_even_and_odd_using_enumerate_loop():
     #put on the variable or param variable
     # example:
     #from file: list_numbers = ["1", "2"]
+    #data = json.loads(list_numbers) or json.dumps(list_numbers)
     print(list_numbers)
     for num, item in enumerate(list_numbers):
         print("item: ")
