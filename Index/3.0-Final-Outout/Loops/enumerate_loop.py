@@ -11,24 +11,46 @@ def checking_even_and_odd_using_enumerate_loop():
     
     i = 1
     while i!=0:
-        number = int(input("\nEnter a Number: "))
-        list_numbers.append(number)
-
-        print("list_numbers:")
-        print(list_numbers)
+       
         str_option = str(input("\nYou would like continue, please enter 'y' if yes. If yo want to exit, kindly type 'n' "))
         if str_option=='y':
+            number = int(input("\nEnter a Number: "))
+            list_numbers.append(str(number))
+
+            print("list_numbers:")
+            print(list_numbers)
             i = i + 1
-        else:
+        elif str_option=='n':
             i = 0
 
 
+    print(list_numbers)
     for num, item in enumerate(list_numbers):
-        if num % 2 == 0:
-            even_number_list.append(num)
-
+        print("item: ")
+        print(item)
+        print("num: ")
+        print(num)
+        if int(item) % 2 == 0:
+            print("item of even: ")
+            print(item)
+            even_number_list.append(str(item))
         else:
-            odd_number_list.append(num)
+            print("item of odd: ")
+            print(item)
+            odd_number_list.append(str(item))
+
+
     print("\nOdd numbers: {0}".format(odd_number_list))
     print("\nEven numbers: {0}".format(even_number_list))
     print("\n")
+
+
+    # for num, item in enumerate(list_numbers):
+    #     if int(num) % 2 == 0:
+    #         even_number_list.append(num)
+
+    #     else:
+    #         odd_number_list.append(num)
+    # print("\nOdd numbers: {0}".format(odd_number_list))
+    # print("\nEven numbers: {0}".format(even_number_list))
+    # print("\n")
