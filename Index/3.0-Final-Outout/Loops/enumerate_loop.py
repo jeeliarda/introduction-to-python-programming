@@ -23,7 +23,16 @@ def checking_even_and_odd_using_enumerate_loop():
         elif str_option=='n':
             i = 0
 
-
+    #1. Write the data into a file
+    # list_numbers ["1", "2"]
+    #file1.json
+    #["1", "2"]
+    
+    #2. Get the data from file (Read a file from file1.json)
+    #["1", "2"]
+    #put on the variable or param variable
+    # example:
+    #from file: list_numbers = ["1", "2"]
     print(list_numbers)
     for num, item in enumerate(list_numbers):
         print("item: ")
