@@ -35,11 +35,11 @@ def checking_even_and_odd_using_enumerate_loop():
     #from file: list_numbers = ["1", "2"]
     #data = json.loads(list_numbers) or json.dumps(list_numbers)
     print(list_numbers)
-    for num, item in enumerate(list_numbers):
+    for index, item in enumerate(list_numbers):
         print("item: ")
         print(item)
-        print("num: ")
-        print(num)
+        print("index: ")
+        print(index)
         if int(item) % 2 == 0:
             print("item of even: ")
             print(item)
