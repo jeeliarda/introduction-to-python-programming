@@ -16,6 +16,3 @@ def main():
     for_loop.check_even_and_odd_numbers_using_for_loop(numbers)
     range_loop.check_even_and_odd_numbers_using_range_loop()
     enumerate_loop.checking_even_and_odd_using_enumerate_loop(numbers)
-
-
-main()
